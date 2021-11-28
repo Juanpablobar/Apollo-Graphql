@@ -1,0 +1,9 @@
+query GET_CHARACTERS {
+    characters{
+        results{
+            id
+            name
+            image
+            }
+        }
+    }

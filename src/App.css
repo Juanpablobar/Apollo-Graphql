@@ -22,10 +22,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  padding: 1em;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.grid{
+  grid-column: 1 span;
+}
+
+.grid img{
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
